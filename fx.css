@@ -1,0 +1,57 @@
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.judul{
+color:blue;
+font-size:28px;
+text-align:center;
+}
+
+.teks{
+font-size:20px;
+color:black;
+}
+
+nav{
+margin:20px 0;
+text-align:center;
+}
+
+nav a{
+text-decoration:none;
+margin:10px;
+color:black;
+}
+
+nav a:hover{
+color:red;
+}
+
+nav a:focus-visible{
+outline:2px solid blue;
+}
+
+table{
+border-collapse:collapse;
+width:100%;
+}
+
+th, td{
+border:1px solid black;
+padding:10px;
+}
+
+footer{
+text-align:center;
+margin-top:20px;
+padding:10px;
+}
